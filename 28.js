@@ -1,9 +1,11 @@
-function car(name,mileage,max_speed){
+class Car{
+  constructor(name,mileage,speed){
     this.name=name;
     this.mileage=mileage;
-    this.max_speed=max_speed;
+    this.speed=speed
+    console.log(name);
+    console.log(mileage);
+    console.log(speed);  
   }
-  const obj=new car("ferrari",7,340);
-  console.log(obj.name);
-  console.log(obj.mileage);
-  console.log(obj.max_speed);
+}
+const obj=new Car("ferrari",8,330)
